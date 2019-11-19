@@ -18,6 +18,11 @@ div {
     overflow: hidden;
 }
 
+.intext{
+    text-decoration: none;
+    color: white;
+}
+
 #personal {
 	width: 345px;
     height: auto;
