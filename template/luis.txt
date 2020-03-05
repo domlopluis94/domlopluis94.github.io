@@ -2,20 +2,20 @@
 <span id="a">Luis@DominguezLopez</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->luis.txt<br/><br/>
 
 <p>
-Primero de todo bienvenid@ a mi mundo, como veras el diseño en esta pagina ha cambiado para ser mas sencillo y mas personal en general mas yo. 
+Primero de todo, bienvenid@ a mi mundo, como verás el diseño en esta página ha cambiado para ser más sencillo y más personal, en general, más yo. 
 </p>
 <p>
-Sobre mi, nací en Valencia en 1994, desde entonces he estudiado en múltiples colegios Sagrados Corazones , St. Michael´s, Trinity College, Los Robles entre otros la mayoría de ellos bilingües y donde he conocido multitud de personas y que me ha permitido adaptarme rápido a los cambios. 
+¿Sobre mi? Nací en Valencia en 1994, desde entonces he estudiado en múltiples colegios, los Sagrados Corazones, St. Michael´s, Trinity College y Los Robles. La mayoría de ellos bilingües. Haber estado en tantos colegios me ha permitido conocer a multitud de personas y, además, me ha hecho aprender a adaptarme rápido a los cambios. 
 <br>
-Curse mis estudios universitarios en la Universidad Politécnica de Madrid, un Grado en Ingeniería Informática, justo después y tras finalizar mi TFG me ofrecieron cursar un Master en Software y Sistemas mientras trabajaba en el laboratorio biomédico de la UPM. 
+Cursé mis estudios universitarios en la Universidad Politécnica de Madrid, concretamente un Grado en Ingeniería Informática. Justo después, y tras finalizar mi TFG, me ofrecieron cursar un Master en Software y Sistemas mientras trabajaba en el laboratorio biomédico de la UPM. 
 <br>
-Acepte sin dudar y abandone mi puesto en Britel donde realice múltiples proyectos relacionados con servicios multimedia. 
+Acepté sin dudar y abandoné mi puesto en Britel, donde realice múltiples proyectos relacionados con servicios multimedia. 
 <br>
-Fuera de lo académico siempre me gusto el deporte, durante la universidad forme parte del equipo de rugby donde me dieron 3 créditos universitarios por los años jugados. 
+Fuera de lo académico, siempre me gustó el deporte, y durante la universidad formé parte del equipo de rugby, donde me dieron 3 créditos universitarios por los años jugados. 
 <br>
-Después empecé a correr y sobre todo a entrenar Crossfit, un deporte que me descubrió el mundo de la halterofilia y con el que disfruto actualmente. 
+Después empecé a correr y, sobre todo, a entrenar Crossfit, un deporte que me descubrió el mundo de la halterofilia y con el que disfruto actualmente. 
 <br> 
-Soy un apasionado de la informática y siempre que puedo desarrollo aplicaciones que me faciliten el día, si quieres mas información sobre estos trabajos tienes el apartado de proyectos personales en esta misma web.
+Soy un apasionado de la informática, y, siempre que puedo, desarrollo aplicaciones que me faciliten el día a día. Si quieres más información sobre estos trabajos tienes el apartado de proyectos personales en esta misma web.
 </p>
 <br>
 <a href="domlopluis@gmail.com">Email</a>
