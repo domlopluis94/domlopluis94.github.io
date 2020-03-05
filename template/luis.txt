@@ -2,7 +2,7 @@
 <span id="a">Luis@DominguezLopez</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->luis.txt<br/><br/>
 
 <p>
-Primero de todo, bienvenid@ a mi mundo, como verás el diseño en esta página ha cambiado para ser más sencillo y más personal, en general, más yo. 
+Primero de todo, bienvenid@ a mi mundo. Como verás el diseño en esta página ha cambiado para ser más sencillo y más personal, en general, más Yo. 
 </p>
 <p>
 ¿Sobre mi? Nací en Valencia en 1994, desde entonces he estudiado en múltiples colegios, los Sagrados Corazones, St. Michael´s, Trinity College y Los Robles. La mayoría de ellos bilingües. Haber estado en tantos colegios me ha permitido conocer a multitud de personas y, además, me ha hecho aprender a adaptarme rápido a los cambios. 
