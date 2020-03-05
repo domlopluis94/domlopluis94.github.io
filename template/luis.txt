@@ -2,6 +2,9 @@
 <span id="a">Luis@DominguezLopez</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->luis.txt<br/><br/>
 
 <p>
+Primero de todo bienvenid@ a mi mundo, como veras el diseño en esta pagina ha cambiado para ser mas sencillo y mas personal en general mas yo. 
+</p>
+<p>
 Sobre mi, nací en Valencia en 1994, desde entonces he estudiado en múltiples colegios Sagrados Corazones , St. Michael´s, Trinity College, Los Robles entre otros la mayoría de ellos bilingües y donde he conocido multitud de personas y que me ha permitido adaptarme rápido a los cambios. 
 <br>
 Curse mis estudios universitarios en la Universidad Politécnica de Madrid, un Grado en Ingeniería Informática, justo después y tras finalizar mi TFG me ofrecieron cursar un Master en Software y Sistemas mientras trabajaba en el laboratorio biomédico de la UPM. 
