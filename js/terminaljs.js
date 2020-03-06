@@ -1,37 +1,54 @@
 $('#terminal').terminal(function(command) {
     if(command =="nombre"){
-        this.echo('- Luis Dominguez Lopez ');
+        this.echo('> Luis Dominguez Lopez ');
     }else if(command =="contacto"){
-        this.echo('- domlopluis@gmail.com ');
+        this.echo('> domlopluis@gmail.com ');
     }else if(command =="estudios"){
-        this.echo('- Grado en Ingenieria Informatica en la UPM ');
-        this.echo('- Master en Software y Sistemas en la UPM ');
+        this.echo('> Grado en Ingenieria Informatica en la UPM ');
+        this.echo('> Master en Software y Sistemas en la UPM ');
     }else if(command =="ultimo projecto personal"){
-        this.echo('- Finalizada: Trabajo sobre la PML disposnible en kaggle');
-        this.echo('- En Proceso: ');
+        this.echo('> Finalizada: Trabajo sobre la PML disposnible en kaggle');
+        this.echo('> En Proceso: ');
     }else if(command =="trabajo actual"){
-        this.echo('- UPM Departamento de IA : Embedded Software Engineer');
+        this.echo('> UPM Departamento de IA : Embedded Software Engineer');
     }else if(command =="descargar CV" || command =="CV" || command =="cv"){
-        window.location.href = '../archivos/LuisDominguezLopez-CV.pdf';
+        
+        location.href=("template/cvembed.html");
     }else if(command =="git"){
-        this.echo('- Volando a Git');
+        this.echo('> Volando a Git');
         var url = "https://github.com/domlopluis94?tab=repositories"
         window.open(url, '_self')
     }else if(command =="linkedin"){
-        this.echo('- Volando a linkedin');
+        this.echo('> Volando a linkedin');
         var url = "https://www.linkedin.com/in/luisdominguezlopezinformatico/"
         window.open(url, '_self')
     }else if(command =="instagram"){
-        this.echo('- Volando a instagram');
+        this.echo('> Volando a instagram');
         var url = "https://www.instagram.com/luisdomlop94/"
         window.open(url, '_self')
     }else if(command =="stackoverflow"){
-        this.echo('- Volando a stackoverflow');
+        this.echo('> Volando a stackoverflow');
         var url = "https://es.stackoverflow.com/users/80483/luis-dominguez"
         window.open(url, '_self')
     }else if(command =="kaggle"){
-        this.echo('- Volando a kaggle');
+        this.echo('> Volando a kaggle');
         var url = "https://www.kaggle.com/luisilloelpillo/datasets"
+        window.open(url, '_self')
+    }else if(command =="help"){
+        this.echo('> Los comandos posibles son: ');
+        this.echo('> nombre');
+        this.echo('> contacto');
+        this.echo('> estudios');
+        this.echo('> ultimo projecto personal');
+        this.echo('> trabajo actual');
+        this.echo('> descargar CV');
+        this.echo('> git');
+        this.echo('> linkedin');
+        this.echo('> instagram');
+        this.echo('> stackoverflow');
+        this.echo('> kaggle');
+        this.echo('> cv');
+        
         window.open(url, '_self')
     }
 }, {
