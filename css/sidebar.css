@@ -2,3 +2,17 @@
     float: none;
     margin: 0 auto;
 }
+
+/* Media querie para dispositivos más grandes de 460*/
+@media (min-width:460px){
+    .tabletext{    
+            font-size: large;
+    }
+}
+    /* Media querie para dispositivos más menores de 460*/
+@media (max-width:460px){
+    .tabletext{
+            font-size: x-small;
+    }
+     
+}
