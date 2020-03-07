@@ -32,6 +32,9 @@
             <li class="nav-item">
               <a class="nav-link" href="template/sobremi.html">Conoceme</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="myBtn">Contacta</a>
+            </li>
             <!--
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proyectos</a>
@@ -53,7 +56,7 @@
             <div class="col-lg-8" style="padding-top: 3%;color:whitesmoke; font-family: courier, monospace;">
                 <h1  >Bienvenid@</h1>
                 <p>
-                  En esta página encontrarás información sobre mi, pero lo primero es, ¿qué función tiene este terminal? Pues con ese terminal podrás obtener información sobre mi. Prueba poniendo "nombre" o "instagram", o si simplemente quieres ver mi CV escribe "cv". Tiene la función autocompletar para ayudarte. Para ver todos los comandos puedes introducir "help".
+                  En esta página encontrarás información sobre mi, pero, antes de nada, ¿qué función tiene este terminal? Pues con ese terminal podrás obtener información sobre mi. Prueba poniendo "nombre" o "instagram", o si simplemente quieres ver mi CV escribe "cv". Tiene la función autocompletar para ayudarte. Para ver todos los comandos puedes introducir "help".
                 </p>
                 <p>
                     <br>
@@ -64,8 +67,47 @@
                 <img style="width: 100%; padding-top: 5%;" src="archivos/Captura de pantalla 2020-03-05 a las 17.26.23.png">
             </div>
         </div>
-        
     </div>
+    <div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content col-12" style="background-color: #37474f;font-family: courier, monospace;">
+    <span class="close" style="color: white;">&times;</span>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfueJShgTL2IQroV8eBLFUhNAZcbxaxNyn56xVPZyGp6Ub6RA/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+      
+</div>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
     <script src="js/terminaljs.js"></script>
 </body>
 </html>
