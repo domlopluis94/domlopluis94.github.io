@@ -1,131 +1,598 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://unpkg.com/jquery.terminal@2.14.1/js/jquery.terminal.min.js"></script>
-<script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/jquery.terminal@2.x.x/css/jquery.terminal.min.css"/>
-<link rel="stylesheet" href="../css/sidebar.css">
-<meta charset="UTF-8" lang="es">
-<title>Luis Domínguez López</title>
-<link rel="shortcut icon" href="iconLuis.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Luis Dominguez Lopez Ingeniero Informático">
-<meta name="keywords" content="Computer Science,Luis Dominguez Lopez,Luis Domínguez López,Ingeniero Informático">
-<meta name="author" content="Luis Dominguez Lopez">
-<meta name="google-site-verification" content="Ylpd0dwTYJO22hWAZbLWeq8pwhFGWjjuhaSmTNd50Nw" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>LUIS DOMINGUEZ LOPEZ</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170283857-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-  gtag('config', 'UA-170283857-1');
-</script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Main Luis-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/jquery.terminal@2.14.1/js/jquery.terminal.min.js"></script>
+  <script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/jquery.terminal@2.x.x/css/jquery.terminal.min.css"/>
+  <link rel="stylesheet" href="../css/sidebar.css">
+  <meta charset="UTF-8" lang="es">
+  <title>Luis Domínguez López</title>
+  <link rel="shortcut icon" href="iconLuis.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Luis Dominguez Lopez Ingeniero Informático">
+  <meta name="keywords" content="Computer Science,Luis Dominguez Lopez,Luis Domínguez López,Ingeniero Informático">
+  <meta name="author" content="Luis Dominguez Lopez">
+  <meta name="google-site-verification" content="Ylpd0dwTYJO22hWAZbLWeq8pwhFGWjjuhaSmTNd50Nw" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170283857-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-170283857-1');
+  </script>
 
 </head>
-<body style="background-color: black;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: courier, monospace;">
-        <a class="navbar-brand" href="#">Luis Domínguez López</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="template/CVonline.html">Curriculum</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="template/sobremi.html">Conoceme</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="myBtn">Contacta</a>
-            </li>
-            <!--
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proyectos</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="template/ppersonal.html">Personales</a>
-                <a class="dropdown-item" href="template/pprofesional.html">Profesionales</a>
-              </div>
-            </li>
-            -->
-          </ul>
-        </div>
-      </nav>
 
-    <div id="cabecera" class="container col-sm-12 col-lg-12" style="background-color: black;"  >
-        <div class="row col-sm-12 .col-lg-12">
-            <div class="col-lg-4 " style="border: black;border-radius: 5px;height: 45%; background-color: black; padding-top: 3%;">
-                <div id="terminal" alt="terminal" ></div>
-            </div>
-            <div class="col-lg-8" style="padding-top: 3%;color:whitesmoke; font-family: courier, monospace;">
-                <h1  >Bienvenid@</h1>
-                <p>
-                  En esta página encontrarás información sobre mi, pero, antes de nada, ¿qué función tiene este terminal? Pues con ese terminal podrás obtener información sobre mi. Prueba poniendo "nombre" o "instagram", o si simplemente quieres ver mi CV escribe "cv". Tiene la función autocompletar para ayudarte. Para ver todos los comandos puedes introducir "help".
-                </p>
-                <p>
-                    <br>
-                    ¿Sobre mi? Soy Ingeniero Informático, con un Master en Software y Sistemas. Y esta página la tengo para ir subiendo los distintos trabajos/blogs que quiero ofrecer de cara al público, y, además, para facilitar información profesional a reclutadores. 
-                </p>
-            </div>
-            <div class="col-sm-11 col-lg-11 col-centered">
-                <img style="width: 100%; padding-top: 5%;" alt="Luis Informático" src="archivos/Captura de pantalla 2020-03-05 a las 17.26.23-1.jpg">
-            </div>
-        </div>
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">LDL</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#about">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="template/CVonline.html">CV Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Personal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div>
+  </nav>
+  <!--/ Nav End /-->
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content col-12" style="background-color: #37474f;font-family: courier, monospace;">
-    <span class="close" style="color: white;">&times;</span>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfueJShgTL2IQroV8eBLFUhNAZcbxaxNyn56xVPZyGp6Ub6RA/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">Luis Domínguez López</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Computer Science,University Master in Software and Systems,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
   </div>
-      
-</div>
+  <!--/ Intro Skew End /-->
 
-<script>
-  // Get the modal
-  var modal = document.getElementById("myModal");
-  
-  // Get the button that opens the modal
-  var btn = document.getElementById("myBtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  </script>
-    <script src="js/terminaljs.js"></script>
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Nombre: </span> <span>Luis Domínguez López</span></p>
+                      <p><span class="title-s">Perfil: </span> <span>Ingeniero Informático</span></p>
+                      <p><span class="title-s">Email: </span> <span>domlopluis@gmail.com</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>Ingeniero Informático por la UPM</span> <span class="pull-right">100%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Master Universitario en Software y Sistemas por la UPM</span> <span class="pull-right">100%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Data Science</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>DevOps</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    ¿Sobre mi? Soy Ingeniero Informático, con un Master en Software y Sistemas. 
+                    Y esta página la tengo para ir subiendo los distintos trabajos/blogs que quiero ofrecer de cara al público, y,
+                    además, para facilitar información profesional a reclutadores. 
+
+                  </p>
+                  <p class="lead">
+                    
+                  </p>
+                  <p class="lead">
+                    
+                  </p>
+                </div>
+                <div class="socials">
+                  <ul>
+                    <li><a href="https://www.linkedin.com/in/luisdominguezlopezinformatico/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                    <li><a href="https://www.instagram.com/luisdomlop94/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                    <li><a href="https://twitter.com/luismasterlu"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                    <li><a href="https://github.com/domlopluis94"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Experiencia
+            </h3>
+            <p class="subtitle-a">
+              Tanto en empresa como de freelance
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Experiencia desde el año 2013 hasta la actualidad. Desde el desarrollo de paginas estaticas a dinamicas. Experiencia en la creación de plataformas web para todo tipo de dispositivos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Software Development</h2>
+              <p class="s-description text-center">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-university"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Software Ingeniering</h2>
+              <p class="s-description text-center">
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Operative Systems</h2>
+              <p class="s-description text-center">
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-lock-combination"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Security</h2>
+              <p class="s-description text-center">
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-briefcase"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Embeded Systems</h2>
+              <p class="s-description text-center">
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-university"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">5</p>
+              <span class="counter-text">Matriculas de Honor Universitarias</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">9</p>
+              <span class="counter-text">Años Programando</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">12</p>
+              <span class="counter-text">Lenguajes Trabajados</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">2</p>
+              <span class="counter-text">Premios de programación</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Trabajos Públicos
+            </h3>
+            <p class="subtitle-a">
+              Tanto univesitarios como de freelance
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Icon-->
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="https://domlopluis94.github.io/El-4bue10-h4cker/">
+              <div class="work-img">
+                <img src="https://domlopluis94.github.io/El-4bue10-h4cker/fotos/portada.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">El-4bue10-h4cker</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Juego Online para recaudar fondos contra el COVID 19</span> / <span class="w-date">31 Abr 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Icon-->
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="https://domlopluis94.github.io/Covid-19-Network-Graph/">
+              <div class="work-img">
+                <img src="https://domlopluis94.github.io/Covid-19-Network-Graph/datosGrandes10a2000/grafo.pdf.png" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Covid-19 Graph</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Data Mining</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Icon end-->
+        
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Testimonials Star /-->
+  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-mf" class="owl-carousel owl-theme">
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/fer.jpeg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Fernanda Ortega Bertella</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  Muy buen compañero de trabajo. Tiene mucha iniciativa y amplios conocimientos en programación.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+            <div class="testimonial-box">
+              <div class="author-test">
+                <img src="img/fede.jpeg" alt="" class="rounded-circle b-shadow-a">
+                <span class="author">Luis Federico Díaz Pérez</span>
+              </div>
+              <div class="content-test">
+                <p class="description lead">
+                  Buen compañero con gran experiencia en Android, IOS y Smarts TV, siempre dispuesto a ayudar a todos los compañeros y en compartir sus conocimientos.
+                </p>
+                <span class="comit"><i class="fa fa-quote-right"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Blog
+            </h3>
+            <p class="subtitle-a">
+              Blogs de opinión y de apuntes sobre Informática
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- fin icono -->
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="https://domlopluis94.github.io/Security_concepts_MUSS/"><img src="https://www.cloudflare.com/resources/images/slt3lc6tev37/3wZIhjRIjfVSmCbVqkBKzb/4a7aa34324108c725dc25fc9e7c4ea4a/tls-ssl-handshake.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Security</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Blog sobre seguridad</a></h3>
+              <p class="card-description">
+                Blog donde podras encontrar recomendaciones y nociones basicas sobre seguridad informática. (En construcción)
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- fin icono -->
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="https://domlopluis94.github.io/Estructura-y-Arquitectura-de-Computadores/"><img src="https://portafolioelectronico.blogia.com/upload/20100715223043-cinta.jpg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Hardware</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Blog sobre Hardware y Estructura de computadores</a></h3>
+              <p class="card-description">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- fin icono -->
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Contacto
+                    </h5>
+                  </div>
+                  <div>
+                      <form class="contactForm">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfueJShgTL2IQroV8eBLFUhNAZcbxaxNyn56xVPZyGp6Ub6RA/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Datos
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      ¿ Quieres contacar conmigo ? Rellena el formulario o contacta directamente a mi correo.
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Madrid</li>
+                      <li><span class="ion-email"></span> domlopluis@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/luisdominguezlopezinformatico/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/luisdomlop94/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href="https://twitter.com/luismasterlu"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href="https://github.com/domlopluis94"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <a style="color: aliceblue;" href="https://github.com/domlopluis94"><strong>Domlopluis94</strong></a>. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
-
 </html>
