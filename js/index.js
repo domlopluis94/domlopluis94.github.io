@@ -1,9 +1,172 @@
+var objJson = {
+    "ServiceSection":[
+        {
+            "icon":"ion-monitor",
+            "title":"Web Development",
+            "Content":"Experiencia desde el año 2013 hasta la actualidad. Desde el desarrollo de paginas estáticas a dinámicas. Experiencia en la creación de plataformas web para todo tipo de dispositivos."
+        },
+        {
+            "icon":"ion-code-working",
+            "title":"Software Development",
+            "Content":"Desarrollos software con experiencia tanto en el desarrollo enfocado en dispositivos móviles como para dispositivos IOT. Experiencia en múltiples lenguajes y siguiendo metodologías Ágiles."
+        },
+        {
+            "icon":"ion-university",
+            "title":"Software Ingeniering",
+            "Content":"Como graduado en el Master de software y sistemas, he trabajado tanto siguiendo buenos patrones de desarrollo software, como creando metodologías que permitan mejorar la productividad y la eficiencia."
+        },
+        {
+            "icon":"ion-document",
+            "title":"Data Science",
+            "Content":"Tanto en el máster como en el grado parte de mi especialización se centro en asignaturas sobre Data Mining, NLP y metodologías de aprendizaje automático. Además, durante mi etapa en el Biomedical Informatic Group pude adquirir mucha experiencia en estos campos."
+        },
+        {
+            "icon":"ion-lock-combination",
+            "title":"Security",
+            "Content":"Otra de las especializaciones que realice en el máster fue entorno a la seguridad y el desarrollo riguroso del software. En seguridad dispongo de un pequeño blog sobre temas de seguridad, durante el master realizamos software de penetración y trabajos relacionados con criptografía, Network Security y Speculative Execution Attacks."
+        },
+        {
+            "icon":"ion-briefcase",
+            "title":"Computer Science",
+            "Content":"Tanto durante mis estudios como en mi etapa profesional, intento mantenerme al día de lo último en tecnología. Para ellos siempre busco realizar trabajos dentro de la ingeniería informática que cubran distintos campos desde temas de robótica a temas de redes o de ingeniería del software."
+        }
+    ],
+    "Stats":[
+        {
+            "icon":"ion-university",
+            "title":"Matriculas de Honor Universitarias",
+            "value":"5"
+        },
+        {
+            "icon":"ion-ios-calendar-outline",
+            "title":"Años Programando",
+            "value":"9"
+        },
+        {
+            "icon":"ion-code-working",
+            "title":"Lenguajes Trabajados",
+            "value":"12"
+        },
+        {
+            "icon":"ion-ribbon-a",
+            "title":"Premios de programación",
+            "value":"2"
+        }
+    ],
+    "Work":[
+        {
+            "link":"https://domlopluis94.github.io/El-4bue10-h4cker/",
+            "imgLink":"https://domlopluis94.github.io/El-4bue10-h4cker/fotos/portada.png",
+            "title":"El-4bue10-h4cker",
+            "description":"Juego Online para recaudar fondos contra el COVID 19</span> / <span class='w-date'>31 Abr 2020"
+        },
+        {
+            "link":"https://domlopluis94.github.io/Covid-19-Network-Graph/",
+            "imgLink":"https://domlopluis94.github.io/Covid-19-Network-Graph/datosGrandes10a2000/grafo.pdf.png",
+            "title":"Covid-19 Graph",
+            "description":"Procedimiento para extraer tweets de twitter y con ellos crear un grafo que represente a los usuarios con mas influencia.</span> / <span class='w-date'>2020"
+        },
+        {
+            "link":"https://github.com/domlopluis94/Cordova-Total-Player",
+            "imgLink":"https://cordova.apache.org/static/img/cordova_bot.png",
+            "title":"Cordova-Total-Player",
+            "description":"Plugin para Cordova con Exoplayer , Google Cast y compatible con la App de VLC.</span> / <span class='w-date'>2019"
+        },
+        {
+            "link":"https://github.com/domlopluis94/memorial_covid",
+            "imgLink":"img/madridvirus.jpg",
+            "title":"Memorial Covid-19",
+            "description":"Demo presentada en el Hackathon Virtual Una respuesta al Covid-19 #VenceAlVirus Comunidad de Madrid.</span> / <span class='w-date'>2020"
+        },
+        {
+            "link":"https://github.com/domlopluis94/DataMining_MUSS",
+            "imgLink":"img/datosPSL.jpg",
+            "title":"DataMining_MUSS_EPL Full Data",
+            "description":"Creación del los datos sobre la PSL (con más de 100 descargas y mas de 1000 visualizaciones) y analisis de los mismos</span> / <span class='w-date'>2019"
+        },
+        {
+            "link":"https://github.com/domlopluis94/DataMining_MUSS",
+            "imgLink":"img/PCE.jpg",
+            "title":"PCE_Selectividad_Extranjeros (Evau Extranjeros)",
+            "description":"Página con calculadora de notas y test de exámenes PCE</span> / <span class='w-date'>2020"
+        },
+        {
+            "link":"https://github.com/domlopluis94/SIG_MAP",
+            "imgLink":"img/sigmap.jpg",
+            "title":"SIG_MAP",
+            "description":"Mapa web opensource para SIG en la Web</span> / <span class='w-date'>2019"
+        },
+        {
+            "link":"https://github.com/domlopluis94/Game-GeoP",
+            "imgLink":"img/Game-Geo.jpg",
+            "title":"Game-Geo",
+            "description":"Juegos sobre georeferéncias escrito en C#</span> / <span class='w-date'>2018"
+        },
+        {
+            "link":"https://play.google.com/store/apps/details?id=luis_y_javi.filmquest",
+            "imgLink":"img/filmquest.png",
+            "title":"Film Quest",
+            "description":"Juegos sobre peliculas ( Las preguntas se generan de forma aleatoria en base a un csv con datos de peliculas )</span> / <span class='w-date'>2017"
+        }
+    ],
+    "Blogs":[
+        {
+            "link":"https://domlopluis94.github.io/Security_concepts_MUSS/",
+            "imgLink":"https://www.cloudflare.com/resources/images/slt3lc6tev37/3wZIhjRIjfVSmCbVqkBKzb/4a7aa34324108c725dc25fc9e7c4ea4a/tls-ssl-handshake.png",
+            "tema":"Security",
+            "title":"Blog sobre seguridad",
+            "description":"Blog donde podras encontrar recomendaciones y nociones basicas sobre seguridad informática. (En construcción)"
+        },
+        {
+            "link":"https://domlopluis94.github.io/Estructura-y-Arquitectura-de-Computadores/",
+            "imgLink":"https://portafolioelectronico.blogia.com/upload/20100715223043-cinta.jpg",
+            "tema":"Hardware",
+            "title":"Blog sobre Hardware y Estructura de computadores",
+            "description":""
+        }
+    ],
+    "Testimonials":[
+        {
+            "name":"Yaiza Arnáiz Alcácer",
+            "job":"(Biomedical Informatic Group UPM)",
+            "description":"Recomiendo a Luis para cualquier trabajo que requiera un profesional comprometido, proactivo y muy resolutivo. He estado trabajando con él, en el mismo grupo de investigación (Biomedical Informatic Group), y no sólo destaca por sus habilidades más técnicas como la programación sino por su gran compañerismo y sentido del trabajo en equipo. Cualquier empresa que se quiera hacer un favor a sí misma, debe contratarle!",
+            "imgLink":"img/y.jpeg"
+        },
+        {
+            "name":"Fernanda Ortega Bertella",
+            "job":"(Britel)",
+            "description":"Muy buen compañero de trabajo. Tiene mucha iniciativa y amplios conocimientos en programación.",
+            "imgLink":"img/fer.jpeg"
+        },
+        {
+            "name":"Luis Federico Díaz Pérez",
+            "job":"(Britel)",
+            "description":"Buen compañero con gran experiencia en Android, IOS y Smarts TV, siempre dispuesto a ayudar a todos los compañeros y en compartir sus conocimientos.",
+            "imgLink":"img/fede.jpeg"
+        }
+    ]
+};
+
+
 
 class Index {
 
     constructor(){
         //set Html
-        this.sethtml();
+        fetch('./data/es-text.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("HTTP error " + response.status);
+            }
+            return response.json();
+        })
+        .then(json => {
+            this.data = json;
+            this.sethtml();
+        })
+        .catch(function () {
+            this.dataError = true;
+        });
     }
 
     sethtml(){
@@ -159,6 +322,26 @@ class Index {
       </section>`);
     }
 
+    getservice(){
+        let data = ""
+        this.data.ServiceSection.forEach((element) =>{
+            data += `<div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="${element.icon}"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">${element.title}</h2>
+                <p class="s-description text-center">
+                    ${element.Content}
+                </p>
+              </div>
+            </div>
+          </div>`;
+        });
+        return data;
+    }
+
     setServiceSection(){
         this.insertInBody(`  <section id="service" class="services-mf route">
         <div class="container">
@@ -176,87 +359,28 @@ class Index {
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-monitor"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Web Development</h2>
-                  <p class="s-description text-center">
-                    Experiencia desde el año 2013 hasta la actualidad. Desde el desarrollo de paginas estáticas a dinámicas. Experiencia en la creación de plataformas web para todo tipo de dispositivos.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-code-working"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Software Development</h2>
-                  <p class="s-description text-center">
-                    Desarrollos software con experiencia tanto en el desarrollo enfocado en dispositivos móviles como para dispositivos IOT. Experiencia en múltiples lenguajes y siguiendo metodologías Ágiles.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-university"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Software Ingeniering</h2>
-                  <p class="s-description text-center">
-                    Como graduado en el Master de software y sistemas, he trabajado tanto siguiendo buenos patrones de desarrollo software, como creando metodologías que permitan mejorar la productividad y la eficiencia.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-document"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Data Science</h2>
-                  <p class="s-description text-center">
-                    Tanto en el máster como en el grado parte de mi especialización se centro en asignaturas sobre Data Mining, NLP y metodologías de aprendizaje automático. Además, durante mi etapa en el Biomedical Informatic Group pude adquirir mucha experiencia en estos campos.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-lock-combination"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Security</h2>
-                  <p class="s-description text-center">
-                    Otra de las especializaciones que realice en el máster fue entorno a la seguridad y el desarrollo riguroso del software. En seguridad dispongo de un pequeño blog sobre temas de seguridad, durante el master realizamos software de penetración y trabajos relacionados con criptografía, Network Security y Speculative Execution Attacks. 
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-briefcase"></i></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Computer Science</h2>
-                  <p class="s-description text-center">
-                    Tanto durante mis estudios como en mi etapa profesional, intento mantenerme al día de lo último en tecnología. Para ellos siempre busco realizar trabajos dentro de la ingeniería informática que cubran distintos campos desde temas de robótica a temas de redes o de ingeniería del software. 
-                  </p>
-                </div>
-              </div>
-            </div>
+            ${this.getservice()}
           </div>
         </div>
       </section>`);
+    }
+
+    getStatsValues(){
+        let data = ""
+        this.data.Stats.forEach((element) =>{
+            data += `<div class="col-sm-3 col-lg-3">
+            <div class="counter-box">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="${element.icon}"></i></span>
+              </div>
+              <div class="counter-num">
+                <p class="counter">${element.value}</p>
+                <span class="counter-text">${element.title}</span>
+              </div>
+            </div>
+          </div>`;
+        });
+        return data;
     }
 
     setStats(){
@@ -264,53 +388,41 @@ class Index {
         <div class="overlay-mf"></div>
         <div class="container">
           <div class="row">
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-university"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">5</p>
-                  <span class="counter-text">Matriculas de Honor Universitarias</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">9</p>
-                  <span class="counter-text">Años Programando</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-code-working"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">12</p>
-                  <span class="counter-text">Lenguajes Trabajados</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">2</p>
-                  <span class="counter-text">Premios de programación</span>
-                </div>
-              </div>
-            </div>
+            ${this.getStatsValues()}
           </div>
         </div>
       </div>`)
+    }
+
+    getWorkExp(){
+        let data = ""
+        this.data.Work.forEach((element) =>{
+            data += `<div class="col-md-4">
+            <div class="work-box">
+              <a href="${element.link}">
+                <div class="work-img">
+                  <img src="${element.imgLink}" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">${element.title}</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">${element.description}</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>`;
+        });
+        return data;
     }
 
     setWorkExp(){
@@ -330,242 +442,29 @@ class Index {
             </div>
           </div>
           <div class="row">
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://domlopluis94.github.io/El-4bue10-h4cker/">
-                  <div class="work-img">
-                    <img src="https://domlopluis94.github.io/El-4bue10-h4cker/fotos/portada.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">El-4bue10-h4cker</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Juego Online para recaudar fondos contra el COVID 19</span> / <span class="w-date">31 Abr 2020</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://domlopluis94.github.io/Covid-19-Network-Graph/">
-                  <div class="work-img">
-                    <img src="https://domlopluis94.github.io/Covid-19-Network-Graph/datosGrandes10a2000/grafo.pdf.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Covid-19 Graph</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Procedimiento para extraer tweets de twitter y con ellos crear un grafo que represente a los usuarios con mas influencia.</span> / <span class="w-date">2020</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://github.com/domlopluis94/Cordova-Total-Player">
-                  <div class="work-img">
-                    <img src="https://cordova.apache.org/static/img/cordova_bot.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Cordova-Total-Player</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Plugin para Cordova con Exoplayer , Google Cast y compatible con la App de VLC.</span> / <span class="w-date">2019</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://github.com/domlopluis94/memorial_covid">
-                  <div class="work-img">
-                    <img src="img/madridvirus.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Memorial Covid-19</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory"> Demo presentada en el Hackathon Virtual Una respuesta al Covid-19 #VenceAlVirus Comunidad de Madrid.</span> / <span class="w-date">2020</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://github.com/domlopluis94/DataMining_MUSS">
-                  <div class="work-img">
-                    <img src="img/datosPSL.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">DataMining_MUSS_EPL Full Data</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Creación del los datos sobre la PSL (con más de 100 descargas y mas de 1000 visualizaciones) y analisis de los mismos</span> / <span class="w-date">2019</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://domlopluis94.github.io/PCE_Selectividad_Extranjeros/">
-                  <div class="work-img">
-                    <img src="img/PCE.jpg" alt="imagen de la web de pce" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">PCE_Selectividad_Extranjeros (Evau Extranjeros)</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Página con calculadora de notas y test de exámenes PCE</span> / <span class="w-date">2020</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://github.com/domlopluis94/SIG_MAPA">
-                  <div class="work-img">
-                    <img src="img/sigmap.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">SIG_MAPA</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Mapa web opensource para SIG en la Web</span> / <span class="w-date">2019</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://github.com/domlopluis94/Game-Geo">
-                  <div class="work-img">
-                    <img src="img/Game-Geo.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Game-Geo</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Juegos sobre georeferéncias escrito en C#</span> / <span class="w-date">2018</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
-            <!-- Icon-->
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://play.google.com/store/apps/details?id=luis_y_javi.filmquest">
-                  <div class="work-img">
-                    <img src="img/filmquest.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">Film Quest</h2>
-                        <div class="w-more">
-                          <span class="w-ctegory">Juegos sobre peliculas ( Las preguntas se generan de forma aleatoria en base a un csv con datos de peliculas )</span> / <span class="w-date">2017</span>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- Icon end-->
+            ${this.getWorkExp()}
           </div>
         </div>
       </section>`);
+    }
+
+    getTestimonials(){
+        let data = ""
+        this.data.Testimonials.forEach((element) =>{
+            data += `<div class="testimonial-box">
+            <div class="author-test">
+              <img src="${element.imgLink}" alt="" class="rounded-circle b-shadow-a">
+              <span class="author">${element.name} ${element.job}</span>
+            </div>
+            <div class="content-test">
+              <p class="description lead">
+                ${element.description}
+              </p>
+              <span class="comit"><i class="fa fa-quote-right"></i></span>
+            </div>
+          </div>`;
+        });
+        return data;
     }
 
     setTestimonials(){
@@ -576,48 +475,7 @@ class Index {
             <div class="row">
               <div class="col-md-12">
                 <div id="testimonial-mf" class="owl-carousel owl-theme">
-                  <!-- -->
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="img/y.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Yaiza Arnáiz Alcácer (Biomedical Informatic Group UPM)</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Recomiendo a Luis para cualquier trabajo que requiera un profesional comprometido, proactivo y muy resolutivo.
-      He estado trabajando con él, en el mismo grupo de investigación (Biomedical Informatic Group), y no sólo destaca por sus habilidades más técnicas como la programación sino por su gran compañerismo y sentido del trabajo en equipo.
-      Cualquier empresa que se quiera hacer un favor a sí misma, debe contratarle!
-                      </p>
-                      <span class="comit"><i class="fa fa-quote-right"></i></span>
-                    </div>
-                  </div>
-                  <!-- -->
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="img/fer.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Fernanda Ortega Bertella (Britel)</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Muy buen compañero de trabajo. Tiene mucha iniciativa y amplios conocimientos en programación.
-                      </p>
-                      <span class="comit"><i class="fa fa-quote-right"></i></span>
-                    </div>
-                  </div>
-                  <!-- -->
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="img/fede.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Luis Federico Díaz Pérez (Britel)</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Buen compañero con gran experiencia en Android, IOS y Smarts TV, siempre dispuesto a ayudar a todos los compañeros y en compartir sus conocimientos.
-                      </p>
-                      <span class="comit"><i class="fa fa-quote-right"></i></span>
-                    </div>
-                  </div>
-                  <!-- -->
+                    ${this.getTestimonials()}
                 </div>
               </div>
             </div>
@@ -625,6 +483,31 @@ class Index {
         </div>`);
     }
     
+    getBlog(){
+      let data = ""
+        this.data.Blogs.forEach((element) =>{
+            data += `<div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="${element.link}"><img src="${element.imgLink}" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">${element.tema}</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">${element.title}</a></h3>
+                <p class="card-description">
+                ${element.description}
+                </p>
+              </div>
+            </div>
+          </div>`;
+        });
+        return data;
+    }
+
     setBlog(){
         this.insertInBody(`  <section id="blog" class="blog-mf sect-pt4 route">
         <div class="container">
@@ -642,45 +525,7 @@ class Index {
             </div>
           </div>
           <div class="row">
-            <!-- fin icono -->
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="https://domlopluis94.github.io/Security_concepts_MUSS/"><img src="https://www.cloudflare.com/resources/images/slt3lc6tev37/3wZIhjRIjfVSmCbVqkBKzb/4a7aa34324108c725dc25fc9e7c4ea4a/tls-ssl-handshake.png" alt="" class="img-fluid"></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Security</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title"><a href="blog-single.html">Blog sobre seguridad</a></h3>
-                  <p class="card-description">
-                    Blog donde podras encontrar recomendaciones y nociones basicas sobre seguridad informática. (En construcción)
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- fin icono -->
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="https://domlopluis94.github.io/Estructura-y-Arquitectura-de-Computadores/"><img src="https://portafolioelectronico.blogia.com/upload/20100715223043-cinta.jpg" alt="" class="img-fluid"></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Hardware</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title"><a href="blog-single.html">Blog sobre Hardware y Estructura de computadores</a></h3>
-                  <p class="card-description">
-                    
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- fin icono -->
+            ${this.getBlog()}
           </div>
         </div>
       </section>`);
