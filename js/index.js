@@ -13,12 +13,7 @@ class Index {
         .then(json => {
             this.data = json;
             const $this = this;
-            document.addEventListener('readystatechange', function() {
-                if (document.readyState === "complete") {
-                    $this.sethtml();
-                }
-                
-            }, false);        
+            $this.sethtml();  
         })
         .catch(function () {
             this.dataError = true;
