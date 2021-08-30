@@ -12,7 +12,13 @@ class Index {
         })
         .then(json => {
             this.data = json;
-            this.sethtml();
+            const $this = this;
+            document.addEventListener('readystatechange', function() {
+                if (document.readyState === "complete") {
+                    $this.sethtml();
+                }
+                
+            }, false);        
         })
         .catch(function () {
             this.dataError = true;
@@ -25,7 +31,7 @@ class Index {
         this.setAboutsection();
     }
 
-    sethtml(){
+    async sethtml(){
         this.setServiceSection();
         this.setStats();
         this.setWorkExp();
