@@ -64,7 +64,7 @@
         },
         {
             "link": "https://domlopluis94.github.io/susurro-api/",
-            "imgLink": "img/grafo.pdf.png",
+            "imgLink": "https://cdn.openai.com/whisper/asr-summary-of-model-architecture-desktop.svg",
             "title": "Susurro Api",
             "description": "API para facilitar el uso y entrenamiento con Whisper https://github.com/openai/whisper.</span> / <span class='w-date'>2022"
         },
