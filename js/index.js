@@ -1,35 +1,40 @@
 class Index {
 
-    constructor(){
+    constructor() {
         //set Html
         this.setHeaderHtml();
         fetch('https://domlopluis94.github.io/data/es-text.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("HTTP error " + response.status);
-            }
-            return response.json();
-        })
-        .then(json => {
-            this.data = json;
-            
-        })
-        .catch(function () {
-            this.dataError = true;
-        });
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.json();
+            })
+            .then(json => {
+                this.data = json;
+                this.sethtml();
+            })
+            .catch(function() {
+                this.dataError = true;
+            });
 
         window.addEventListener('load', (event) => {
-            this.sethtml();
+            try {
+                this.sethtml();
+            } catch (error) {
+                console.error(error);
+            }
+
         });
     }
 
-    setHeaderHtml(){
+    setHeaderHtml() {
         this.setNavBar();
         this.setPresentationImg();
         this.setAboutsection();
     }
 
-    sethtml(){
+    sethtml() {
         this.setServiceSection();
         this.setStats();
         this.setWorkExp();
@@ -40,7 +45,7 @@ class Index {
         ScriptLoader.loadFiles();
     }
 
-    setNavBar(){
+    setNavBar() {
         this.insertInBody(`<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
                             <div class="container">
                             <a class="navbar-brand js-scroll" href="#page-top">LDL</a>
@@ -76,7 +81,7 @@ class Index {
                         </nav>`);
     }
 
-    setPresentationImg(){
+    setPresentationImg() {
         this.insertInBody(`<!--/ Intro Skew Star /-->
         <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
           <div class="overlay-itro"></div>
@@ -93,7 +98,7 @@ class Index {
         </div>`);
     }
 
-    setAboutsection(){
+    setAboutsection() {
         this.insertInBody(`  <section id="about" class="about-mf sect-pt4 route">
         <div class="container">
           <div class="row">
@@ -181,9 +186,9 @@ class Index {
       </section>`);
     }
 
-    getservice(){
+    getservice() {
         let data = ""
-        this.data.ServiceSection.forEach((element) =>{
+        this.data.ServiceSection.forEach((element) => {
             data += `<div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
@@ -201,7 +206,7 @@ class Index {
         return data;
     }
 
-    setServiceSection(){
+    setServiceSection() {
         this.insertInBody(`  <section id="service" class="services-mf route">
         <div class="container">
           <div class="row">
@@ -224,9 +229,9 @@ class Index {
       </section>`);
     }
 
-    getStatsValues(){
+    getStatsValues() {
         let data = ""
-        this.data.Stats.forEach((element) =>{
+        this.data.Stats.forEach((element) => {
             data += `<div class="col-sm-3 col-lg-3">
             <div class="counter-box">
               <div class="counter-ico">
@@ -242,7 +247,7 @@ class Index {
         return data;
     }
 
-    setStats(){
+    setStats() {
         this.insertInBody(`  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
@@ -253,9 +258,9 @@ class Index {
       </div>`)
     }
 
-    getWorkExp(){
+    getWorkExp() {
         let data = ""
-        this.data.Work.forEach((element) =>{
+        this.data.Work.forEach((element) => {
             data += `<div class="col-md-4">
             <div class="work-box">
               <a href="${element.link}">
@@ -284,7 +289,7 @@ class Index {
         return data;
     }
 
-    setWorkExp(){
+    setWorkExp() {
         this.insertInBody(`  <section id="work" class="portfolio-mf sect-pt4 route">
         <div class="container">
           <div class="row">
@@ -307,9 +312,9 @@ class Index {
       </section>`);
     }
 
-    getTestimonials(){
+    getTestimonials() {
         let data = ""
-        this.data.Testimonials.forEach((element) =>{
+        this.data.Testimonials.forEach((element) => {
             data += `<div class="testimonial-box">
             <div class="author-test">
               <img src="${element.imgLink}" alt="" class="rounded-circle b-shadow-a">
@@ -326,7 +331,7 @@ class Index {
         return data;
     }
 
-    setTestimonials(){
+    setTestimonials() {
         this.insertInBody(`  <!--/ Section Testimonials Star /-->
         <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
           <div class="overlay-mf"></div>
@@ -341,10 +346,10 @@ class Index {
           </div>
         </div>`);
     }
-    
-    getBlog(){
-      let data = ""
-        this.data.Blogs.forEach((element) =>{
+
+    getBlog() {
+        let data = ""
+        this.data.Blogs.forEach((element) => {
             data += `<div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
@@ -367,7 +372,7 @@ class Index {
         return data;
     }
 
-    setBlog(){
+    setBlog() {
         this.insertInBody(`  <section id="blog" class="blog-mf sect-pt4 route">
         <div class="container">
           <div class="row">
@@ -390,7 +395,7 @@ class Index {
       </section>`);
     }
 
-    setContactFooter(){
+    setContactFooter() {
         this.insertInBody(`  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
@@ -456,74 +461,61 @@ class Index {
       </section>`);
     }
 
-    insertInBody(tag){
+    insertInBody(tag) {
         document.getElementsByTagName("body")[0].innerHTML += tag;
     }
 
 }
 
-var cScriptLoader = (function ()
-{
-    function cScriptLoader(files)
-    {
+var cScriptLoader = (function() {
+    function cScriptLoader(files) {
         var _this = this;
-        this.log = function (t)
-        {
+        this.log = function(t) {
             console.log("ScriptLoader: " + t);
         };
-        this.withNoCache = function (filename)
-        {
+        this.withNoCache = function(filename) {
             if (filename.indexOf("?") === -1)
                 filename += "?no_cache=" + new Date().getTime();
             else
                 filename += "&no_cache=" + new Date().getTime();
             return filename;
         };
-        this.loadStyle = function (filename)
-        {
+        this.loadStyle = function(filename) {
             // HTMLLinkElement
             var link = document.createElement("link");
             link.rel = "stylesheet";
             link.type = "text/css";
             link.href = _this.withNoCache(filename);
             _this.log('Loading style ' + filename);
-            link.onload = function ()
-            {
+            link.onload = function() {
                 _this.log('Loaded style "' + filename + '".');
             };
-            link.onerror = function ()
-            {
+            link.onerror = function() {
                 _this.log('Error loading style "' + filename + '".');
             };
             _this.m_head.appendChild(link);
         };
-        this.loadScript = function (i)
-        {
+        this.loadScript = function(i) {
             var script = document.createElement('script');
             script.type = 'text/javascript';
             script.src = _this.withNoCache(_this.m_js_files[i]);
-            var loadNextScript = function ()
-            {
-                if (i + 1 < _this.m_js_files.length)
-                {
+            var loadNextScript = function() {
+                if (i + 1 < _this.m_js_files.length) {
                     _this.loadScript(i + 1);
                 }
             };
-            script.onload = function ()
-            {
+            script.onload = function() {
                 _this.log('Loaded script "' + _this.m_js_files[i] + '".');
                 loadNextScript();
             };
-            script.onerror = function ()
-            {
+            script.onerror = function() {
                 _this.log('Error loading script "' + _this.m_js_files[i] + '".');
                 loadNextScript();
             };
             _this.log('Loading script "' + _this.m_js_files[i] + '".');
             _this.m_head.appendChild(script);
         };
-        this.loadFiles = function ()
-        {
+        this.loadFiles = function() {
             // this.log(this.m_css_files);
             // this.log(this.m_js_files);
             for (var i = 0; i < _this.m_css_files.length; ++i)
@@ -534,23 +526,17 @@ var cScriptLoader = (function ()
         this.m_css_files = [];
         this.m_head = document.getElementsByTagName("head")[0];
         // this.m_head = document.head; // IE9+ only
-        function endsWith(str, suffix)
-        {
+        function endsWith(str, suffix) {
             if (str === null || suffix === null)
                 return false;
             return str.indexOf(suffix, str.length - suffix.length) !== -1;
         }
-        for (var i = 0; i < files.length; ++i)
-        {
-            if (endsWith(files[i], ".css"))
-            {
+        for (var i = 0; i < files.length; ++i) {
+            if (endsWith(files[i], ".css")) {
                 this.m_css_files.push(files[i]);
-            }
-            else if (endsWith(files[i], ".js"))
-            {
+            } else if (endsWith(files[i], ".js")) {
                 this.m_js_files.push(files[i]);
-            }
-            else
+            } else
                 this.log('Error unknown filetype "' + files[i] + '".');
         }
     }
