@@ -3,7 +3,7 @@ class Index {
     constructor() {
         //set Html
         this.setHeaderHtml();
-        fetch('https://domlopluis94.github.io/data/es-text.json')
+        fetch('https://www.luigic.es/data/es-text.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error("HTTP error " + response.status);
